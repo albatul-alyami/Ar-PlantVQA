@@ -1,4 +1,5 @@
 # Ar-PlantVQA: An Arabic Mixture of Vision Experts Framework and Benchmark for Crop Disease Diagnosis
+## Overview
 Ar-PlantVQA is an Arabic Visual Question Answering (VQA) dataset for plant disease diagnosis, comprising **10,290 question-answer pairs associated with 9,033 unique plant images**. The dataset is designed to support Arabic and multilingual vision-language research in the agricultural domain, covering nine question types across different levels of visual understanding and reasoning.
 
 ## Dataset Source and Construction
