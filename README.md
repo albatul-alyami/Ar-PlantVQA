@@ -43,19 +43,6 @@ The dataset includes nine question types organized into three cognitive levels:
 
 The dataset includes two main answer types: **binary (Yes/No)** and **descriptive answers**, including short factual and free-text responses.
 
-## Dataset Statistics
-
-| Statistic | Value |
-|---|---:|
-| Total Question-Answer Pairs | 10,290 |
-| Unique Images | 9,033 |
-| Question Types | 9 |
-| Answer Types | 2 |
-| Average Question Length (Words) | 9.29 |
-| Average Answer Length (Words) | 5.15 |
-| Average Question Length (Tokens) | 36.63 |
-| Average Answer Length (Tokens) | 20.11 |
-
 ### Dataset Splits
 
 The dataset is divided into three **image-disjoint splits**, ensuring that no image appears in more than one split.
