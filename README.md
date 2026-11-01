@@ -83,7 +83,6 @@ The `image_path` column contains relative paths to the corresponding images.
 
 ## Citation
 
-If you use Ar-PlantVQA in your research, please cite the associated publication once available and acknowledge the original PlantVillageVQA dataset.
 
 ## License
 
