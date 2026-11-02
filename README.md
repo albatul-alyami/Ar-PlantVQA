@@ -17,7 +17,7 @@ Ar-PlantVQA was constructed through stratified sampling from PlantVillageVQA to 
 
 ## Dataset Labels
 
-Each sample consists of a plant image and its corresponding question-answer pair in both English and Arabic.
+Each sample consists of an image and its corresponding question-answer pair in both English and Arabic.
 
 | Column | Description |
 |---|---|
@@ -54,12 +54,14 @@ The dataset includes two main answer types: **binary (Yes/No)** and **descriptiv
 
 The dataset is divided into three **image-disjoint splits**, ensuring that no image appears in more than one split.
 
-| Split | Question-Answer Pairs | Unique Images |
-|---|---:|---:|
-| Train | 7,375 | 6,478 |
-| Validation | 811 | 719 |
-| Test | 2,104 | 1,836 |
-| **Total** | **10,290** | **9,033** |
+
+| Split | Samples | Unique Images | Ratio |
+|---|---:|---:|---:|
+| Train | 7,375 | 6,478 | 71.67% |
+| Validation | 811 | 719 | 7.88% |
+| Test | 2,104 | 1,836 | 20.45% |
+| **Total** | **10,290** | **9,033** | **100%** |
+
 
 ## Dataset Download
 
