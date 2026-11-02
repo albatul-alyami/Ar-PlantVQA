@@ -2,11 +2,18 @@
 ## Overview
 Ar-PlantVQA is an Arabic Visual Question Answering (VQA) dataset for plant disease diagnosis, comprising **10,290 question-answer pairs associated with 9,033 unique plant images**. The dataset is designed to support Arabic and multilingual vision-language research in the agricultural domain, covering nine question types across different levels of visual understanding and reasoning.
 
-## Dataset Source and Construction
+## Dataset Source 
 
 Ar-PlantVQA is derived from **PlantVillageVQA** https://huggingface.co/datasets/SyedNazmusSakib/PlantVillageVQA, an English-language VQA dataset built upon PlantVillage images. PlantVillageVQA contains more than 193,000 expert-verified question-answer pairs covering 14 crops, 38 diseases, and nine question types.
 
-Ar-PlantVQA was constructed by selecting a stratified subset of PlantVillageVQA to obtain a more balanced representation of question types. The selected English question-answer pairs were translated into Arabic using GPT-4o, followed by back-translation into English. Semantic similarity between the original and back-translated texts was assessed using Sentence-BERT, and samples meeting a similarity threshold of 0.80 were retained. The quality of the translated data was further assessed through human evaluation.
+## Dataset Construction
+
+<p align="center">
+  <img src="data framework.png" width="650">
+</p>
+
+Ar-PlantVQA was constructed through stratified sampling from PlantVillageVQA to achieve a balanced distribution of question types. The selected English question-answer pairs were translated into Arabic using GPT-4o and then back-translated into English. Sentence-BERT was used to compute cosine similarity between the original and back-translated texts for both questions and answers. The two similarity scores were averaged for each sample, and samples achieving a score of at least 0.80 (80%) were retained. The resulting dataset was further assessed through human evaluation.
+
 
 ## Dataset Labels
 
